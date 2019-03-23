@@ -105,7 +105,7 @@ for(let i=1;i<100;i++){
 
  C. Give me Five
  For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
- */
+ 
 
 for(let i=1;i<=100;i++){
     if(i%5==0||i%3==0){
@@ -118,3 +118,27 @@ for(let i=1;i<=100;i++){
     }
     
  }
+
+D. Savings account
+*/
+/*
+//Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+const bank_account=[];
+for(let i=0;i<=10;i++){
+    bank_account.push(i)
+}
+const sum = bank_account.reduce((accumlator,currentValue)=>{
+    return accumlator+currentValue;
+},0);
+console.log(sum)
+
+//You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+const bank_account=[];
+for(let i=0;i<=100;i++){
+    bank_account.push(i*2)
+}
+const sum = bank_account.reduce((accumlator,currentValue)=>{
+    return accumlator+currentValue;
+},0);
+console.log(sum)
+*/
