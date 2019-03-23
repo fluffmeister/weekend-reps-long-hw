@@ -164,4 +164,9 @@ Elements
 the elements will stay the same unless a function like sort() or reverse() is used to change the contents within
 //What real-life thing could you model with an array?
 multiplication table,seating arragement
+
+
+B. Easy Does It
 */
+//Create an array that contains three quotes and store it in a variable called quotes.
+const quotes=['I','am','coding']
