@@ -295,8 +295,9 @@ const kristynsCloset = [
       'raybans'
     ]
   ];
+/*
+H. What's in Your Closet?
 //What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" to the console.
-
 console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!")
 //Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
 kristynsCloset.splice(5,0,"raybans")
@@ -317,3 +318,13 @@ console.log("Thom is looking fierce in a "+ outfit[0]+', '+outfit[1]+' and '+out
 //Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
 thomsCloset[1][2]="Footie Pajamas"
 console.log(thomsCloset[1][2])
+
+IV. Functions
+A. printGreeting
+*/
+var name;
+function printGreeting(name){
+    console.log(name)
+}
+
+console.log(printGreeting('Slimer'));
