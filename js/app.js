@@ -53,4 +53,18 @@ console.log(48 !== '48');
 
 
 D. The farm
+
+
+var animal = cow;
+
+if (animal===cow){
+    console.log('Moooo')
+}
+else{
+    console.log('Hey! your not a cow')
+}
+
+E. Driver's Ed
 */
+
+var age;
