@@ -1,5 +1,6 @@
 console.log('testing')
-/*I. Variables & Datatypes
+/*
+I. Variables & Datatypes
 A. Q + A
 1. How do we assign a value to a variable?
 by using the =
@@ -20,7 +21,8 @@ pseduocoding is using comments to better organize your thoughts and list the nee
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 75-90% planning, and 10-25% actually typing code.
-
+*/
+/*
 B. Strings
 
 
@@ -32,7 +34,8 @@ console.log(firstVariable);
 var yourName ='Dominic';
 var saying= 'Hello, my name is ' +yourName;
 console.log(saying)
-
+*/
+/*
 C. Booleans
 const a = 4;
 const b = 53;
@@ -50,8 +53,8 @@ console.log(e === 'Kevin');
 console.log(a < b < c);
 console.log(a == a !== d);
 console.log(48 !== '48');
-
-
+*/
+/*
 D. The farm
 
 
@@ -63,7 +66,8 @@ if (animal===cow){
 else{
     console.log('Hey! your not a cow')
 }
-
+*/
+/*
 E. Driver's Ed
 var age;
 function checkAge(age){
@@ -75,7 +79,9 @@ function checkAge(age){
     }
 }
 checkAge(20)
+*/
 
+/*
 II. Loops
 A. The basics
 
@@ -93,6 +99,9 @@ for(let i=0;i<=10;i++){
 for(let i=12;i<4000;i+=3){
     console.log(i)
 }
+*/
+
+/*
 B. Get even
 //Print out the even numbers that are within the range of 1 - 100.
 //Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
@@ -102,7 +111,8 @@ for(let i=1;i<100;i++){
     console.log(i+"<-- is an even number")
     }
  }
-
+*/
+/*
  C. Give me Five
  For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
  
@@ -141,7 +151,9 @@ const sum = bank_account.reduce((accumlator,currentValue)=>{
     return accumlator+currentValue;
 },0);
 console.log(sum)
+*/
 
+/*
 E. multiples of 3 and 5
 
 const multiples=[];
@@ -154,7 +166,9 @@ const sum = multiples.reduce((accumlator,currentValue)=>{
     return accumlator+currentValue;
 },0);
 console.log(sum)
+*/
 
+/*
 III. Arrays & Control flow
 
 A. Talk about it:
@@ -164,7 +178,9 @@ Elements
 the elements will stay the same unless a function like sort() or reverse() is used to change the contents within
 //What real-life thing could you model with an array?
 multiplication table,seating arragement
+*/
 
+/*
 
 B. Easy Does It
 
@@ -179,7 +195,9 @@ console.log(randomThings[0])
 randomThings[2]="world"
 //Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
 console.log(randomThings)
+*/
 
+/*
 D. Change values
 
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
@@ -190,9 +208,11 @@ ourClass[4]='Octocat'
 //Add a new element, "Cloud City" to the array.
 ourClass.push("Cloud City")
 console.log(ourClass)
-
-E. Mix It Up
 */
+
+/*
+E. Mix It Up
+
 
 const myArray = [5, 10, 500, 20]
 //Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
@@ -213,3 +233,20 @@ console.log(myArray)
 //Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
 newArray=myArray.reverse(myArray)
 console.log(newArray)
+*/
+
+/*
+F. Biggie Smalls
+Create a variable that contains an integer.
+*/
+
+//Write an if ... else statement that:
+//console.log()s "little number" if the number is entered is less than 100
+//console.log()s big number if the number is greater than or equal to 100.
+var num=300;
+if(num>=100){
+    console.log('Big number')
+}
+else{
+    console.log('Little Number')
+}
