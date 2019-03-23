@@ -96,10 +96,25 @@ for(let i=12;i<4000;i+=3){
 B. Get even
 //Print out the even numbers that are within the range of 1 - 100.
 //Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
-*/
+
 for(let i=1;i<100;i++){
     if(i%2==0){
     console.log(i+"<-- is an even number")
     }
  }
 
+ C. Give me Five
+ For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
+ */
+
+for(let i=1;i<=100;i++){
+    if(i%5==0||i%3==0){
+        if(i%5==0){
+        console.log("I found a "+ i+ " High five!")
+        }  
+    if(i%3==0){
+        console.log("I found a "+ i+ " Three's a Crowd")
+        }
+    }
+    
+ }
