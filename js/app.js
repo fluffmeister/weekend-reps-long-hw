@@ -236,10 +236,9 @@ console.log(newArray)
 */
 
 /*
+/*
 F. Biggie Smalls
 Create a variable that contains an integer.
-*/
-
 //Write an if ... else statement that:
 //console.log()s "little number" if the number is entered is less than 100
 //console.log()s big number if the number is greater than or equal to 100.
@@ -249,4 +248,16 @@ if(num>=100){
 }
 else{
     console.log('Little Number')
+}
+G. Monkey in the Middle
+*/
+var num=5;
+if(num>5){
+    console.log('Big number')
+}
+if(num<5){
+    console.log('Little Number')
+}
+else{
+    console.log('Monkey')
 }
