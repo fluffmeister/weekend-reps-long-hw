@@ -65,6 +65,14 @@ else{
 }
 
 E. Driver's Ed
-*/
-
 var age;
+function checkAge(age){
+    if(age>=16){
+        console.log("Here are the keys")
+    }
+    else{
+        console.log("Sorry, you're too young.")
+    }
+}
+checkAge(20)
+*/
