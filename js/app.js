@@ -1,5 +1,6 @@
 console.log('testing')
 /*I. Variables & Datatypes
+A. Q + A
 1. How do we assign a value to a variable?
 by using the =
 var=0
@@ -20,5 +21,14 @@ pseduocoding is using comments to better organize your thoughts and list the nee
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 75-90% planning, and 10-25% actually typing code.
 
+B. Strings
 */
 
+var firstVariable='hello world';
+firstVariable=1;
+secondVariable=firstVariable;
+secondVariable="any string";
+console.log(firstVariable);
+var yourName ='Dominic';
+var saying= 'Hello, my name is ' +yourName;
+console.log(saying)
