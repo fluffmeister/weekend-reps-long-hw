@@ -143,7 +143,7 @@ const sum = bank_account.reduce((accumlator,currentValue)=>{
 console.log(sum)
 
 E. multiples of 3 and 5
-*/
+
 const multiples=[];
 for(let i=0;i<1000;i++){
     if(i%3==0||i%5==0){
@@ -154,3 +154,14 @@ const sum = multiples.reduce((accumlator,currentValue)=>{
     return accumlator+currentValue;
 },0);
 console.log(sum)
+
+III. Arrays & Control flow
+
+A. Talk about it:
+//What are the things in an array called?
+Elements
+//Do Arrays guarantee those things will be in order?
+the elements will stay the same unless a function like sort() or reverse() is used to change the contents within
+//What real-life thing could you model with an array?
+multiplication table,seating arragement
+*/
