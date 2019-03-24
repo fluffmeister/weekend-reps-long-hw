@@ -398,10 +398,9 @@ function maxOfThree(num1,num2,num3){
 
 }
 maxOfThree(1,1,4);
-
-H. printLongestWord
 */
-
+/*
+H. printLongestWord
  // console.log(words.length)
 function printLongestWord(words){
     let n=words[0];
@@ -441,7 +440,16 @@ function transmogrify(num1,num2,exp){
      console.log(Math.pow((num1*num2),exp))
   }
  transmogrify(5, 3, 2)
- 
-J. reverseWordOrderV2
  */
-  
+/*
+J. reverseWordOrderV2
+ 
+  function reverseString(str){
+    var newString = " ";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+   console.log(newString);
+  }
+  reverseString("Ishmael me Call")
+*/
