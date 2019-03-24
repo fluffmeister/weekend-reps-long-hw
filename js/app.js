@@ -1,4 +1,4 @@
-console.log('testing')
+//console.log('testing')
 /*
 I. Variables & Datatypes
 A. Q + A
@@ -321,10 +321,120 @@ console.log(thomsCloset[1][2])
 
 IV. Functions
 A. printGreeting
-*/
 var name;
 function printGreeting(name){
     console.log(name)
 }
 
 console.log(printGreeting('Slimer'));
+
+B. printCool
+let name = 0;
+function printCool(name){
+    console.log(name+' is cool');
+}
+printCool('Captain Reynolds');
+*/
+/*
+C. calculateCube
+function calculateCube(num){
+    console.log(Math.pow(num,3))
+}
+calculateCube(5)
+
+D. isVowel
+function isVowel(test){
+    let str=test.toUpperCase();
+    console.log(str)
+    if(str==='A'||str==='E'||str==='I'||str==='O'||str==='U'){
+        console.log(test+' is a vowel')
+    }
+    if(str==='Y'){
+        console.log('And sometimes ' + str)
+    }
+    else{
+        console.log(test +' is a constant')
+    }
+}
+isVowel('y');
+
+E. getTwoLengths
+
+function getTwoengths(str1,str2){
+
+    let all=[];
+    all.push(str1.length);
+    all.push(str2.length);
+    console.log(all)
+    
+}
+getTwoLengths('Hank', 'Hippopopalous');
+*/
+/*
+F. getMultipleLengths
+function getMultipleLengths(arr){
+    newArr=[];
+    for(i=0;i<arr.length;i++){
+        newArr.push(arr[i].length)
+        }
+    console.log(newArr)
+}
+getMultipleLengths(['hello', 'what', 'is', 'up', 'dude']);
+*/
+/*
+G. maxOfThree
+function maxOfThree(num1,num2,num3){
+    if (num1>=num2&& num1>=num3){
+        console.log(num1+' is the largest')
+    } 
+    else{
+        if(num2>=num3){
+            console.log(num2+' is the largest');
+        }
+        else{
+            console.log(num3+' is the largest');
+        }
+    }
+
+}
+maxOfThree(1,1,4);
+
+H. printLongestWord
+*/
+
+ // console.log(words.length)
+function printLongestWord(words){
+    let n=words[0];
+    let first=[];
+    //shift thru array
+    for(let i=0;i<words.length;i++){
+        if(n.length<=words[i].length){
+          if(n.length!==words[i].length){
+            n=words[i];
+          }
+          else{  
+            first=words[i]
+          }
+        }
+    }
+    if(n.length===first.length){
+        console.log(first)
+    }
+    else{
+        console.log(n)
+    }
+}
+printLongestWord([
+    'BoJack',
+    'Princess',
+    'Diane',
+    'a',
+    'Max',
+    'Peanutbutter',
+    'big',
+    'peanutbuttar'
+  ])
+
+ 
+
+  
