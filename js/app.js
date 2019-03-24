@@ -499,11 +499,12 @@ function getRandomElement(){
     console.log(quotes[i])
 }
 getRandomElement()
-
-V.Objects
 */
+
+//  V.Objects
+/**/ 
 //A. Make a user object
-let user={
+const user={
     name: 'Ant',
     email:'ant@gmail.com',
     age:21,
@@ -515,3 +516,48 @@ console.log(user)
 user.email='antman@gmail.com'
 user.age++
 console.log(user)
+//C. Adding keys and values
+user.location='los angeles'
+console.log(user)
+//D.Shopaholic!
+//Our user has purchased an item! They have purchased some "carbohydrates". Using .push(),
+//add the string "carbohydrates" to the purchased array.
+user.purchased.push("carbohydrates")
+//Our user has purchased an item! They have purchased some "peace of mind". Using .push(), 
+//add the string "peace of mind" to the purchased array.
+user.purchased.push("peace of mind")
+//Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), 
+//add the string "Merino jodhpurs" to the purchased array.
+user.purchased.push("Merino jodhpurs")
+console.log(user)
+//Console.log just the "Merino jodhpurs" from the purchased array.
+console.log(user.purchased[2])
+
+
+user.friend = {
+    name: 'Asa Akira',
+    age: 35
+  };
+user.friend.location="Tokyo"
+user.friend.purchased=[];
+console.log(user.friend.name)
+console.log(user.friend.location)
+user.friend.age=55;
+console.log(user.friend)
+user.friend.purchased.push("The One Ring")
+user.friend.purchased.push('latte')
+console.log(user.friend.purchased[1])
+
+
+//F. Loops
+//Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), 
+//and prints each element to the console.
+console.log(user.purchased.length)
+for(let i=0;i<user.purchased.length;i++){
+ console.log(user.purchased[i])
+}
+//Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
+console.log(user.friend.purchased.length)
+for(let i=0;i<user.friend.purchased.length;i++){
+ console.log(user.friend.purchased[i])
+}
