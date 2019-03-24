@@ -561,3 +561,25 @@ console.log(user.friend.purchased.length)
 for(let i=0;i<user.friend.purchased.length;i++){
  console.log(user.friend.purchased[i])
 }
+//G. Functions can operate on objects
+// Write a single function updateUser that takes no parameters. When the function is run, it should:
+// it should increment the user's age by 1
+// make the user's name uppercase
+/*
+function updateUser(){
+    user.name=user.name.toUpperCase(user.name)
+    user.age++
+}
+
+updateUser()
+console.log(user.name)
+console.log(user.age)
+*/
+
+function oldAndLoud(person){
+    person.name=person.name.toUpperCase(person.name)
+    person.age++
+}
+oldAndLoud(user.friend)
+console.log(user.friend.name)
+console.log(user.friend.age)
