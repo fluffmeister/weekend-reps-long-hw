@@ -501,14 +501,17 @@ function getRandomElement(){
 getRandomElement()
 
 V.Objects
-
-A. Make a user object
 */
-
+//A. Make a user object
 let user={
     name: 'Ant',
     email:'ant@gmail.com',
-    age:'21',
+    age:21,
     purchased:[]
 }
+console.log(user)
+
+//B. Update the user
+user.email='antman@gmail.com'
+user.age++
 console.log(user)
