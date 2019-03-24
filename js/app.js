@@ -452,4 +452,53 @@ J. reverseWordOrderV2
    console.log(newString);
   }
   reverseString("Ishmael me Call")
+
+K. Get down and dirty with Math.random()
+  */
+
+//Write a function that will return a random integer between 1 and 10. Test it.
+/*
+function randomNum(){
+    console.log(Math.random(10)*10)
+}
+randomNum()
+*/
+/*
+//Write a function that will return a random integer between 10 and 100. Test it.
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+   console.log(Math.floor(Math.random() * (max - min)) + min);
+}
+getRandomInt(10,100)
+
+//Write a function that will return a random number between 532 and 13267. Test it.
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+console.log(Math.floor(Math.random() * (max - min)) + min);
+}
+getRandomInt(532,13267)
+
+//Write a function that will return a random number between 1 and 10. Test it.
+
+function getRandomInt(min, max) {
+min = Math.ceil(min);
+max = Math.floor(max);
+console.log(Math.floor(Math.random() * (max - min)) + min);
+}
+getRandomInt(1,10)
+*/
+//Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+/*
+const quotes=['I','am','coding','this','part','again']
+function getRandomElement(){
+    
+    i=Math.floor(Math.random()*5)
+    console.log(i)
+    console.log(quotes[i])
+}
+getRandomElement()
+
+V.Objects
 */
