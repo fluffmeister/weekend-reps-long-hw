@@ -401,7 +401,7 @@ maxOfThree(1,1,4);
 
 H. printLongestWord
 */
-/*
+
  // console.log(words.length)
 function printLongestWord(words){
     let n=words[0];
@@ -418,10 +418,10 @@ function printLongestWord(words){
         }
     }
     if(n.length===first.length){
-        console.log(first)
+        console.log(n)
     }
     else{
-        console.log(n)
+        console.log(first)
     }
 }
 printLongestWord([
@@ -434,7 +434,7 @@ printLongestWord([
     'big',
     'peanutbuttar'
   ])
-*/
+
 /*
 I. transmogrify
 function transmogrify(num1,num2,exp){
