@@ -131,7 +131,7 @@ for(let i=1;i<=100;i++){
 
 D. Savings account
 */
-/*
+
 //Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
 const bank_account=[];
 for(let i=0;i<=10;i++){
@@ -141,7 +141,7 @@ const sum = bank_account.reduce((accumlator,currentValue)=>{
     return accumlator+currentValue;
 },0);
 console.log(sum)
-
+/*
 //You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
 const bank_account=[];
 for(let i=0;i<=100;i++){
